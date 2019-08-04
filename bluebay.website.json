@@ -1,0 +1,110 @@
+{
+  "id": "cc1697d2-28af-473b-b386-a689c5c715ef",
+  "name": "bluebay.website",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Here you go https://bluebaycreaters.com/"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "de6125eb-8094-4d3f-bda8-4f78384391b1",
+      "data": [
+        {
+          "text": "open bluebay website",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "512738c9-ad57-45c5-bb05-3e47b2c6d83f",
+      "data": [
+        {
+          "text": "open ani website",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "81b859b3-5957-4657-b583-23740d9b4728",
+      "data": [
+        {
+          "text": "Open ani's websiteo",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e590ac81-1403-49e1-979d-8660555552a4",
+      "data": [
+        {
+          "text": "Open your place",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ec09df87-8544-4e8c-89aa-e58b0d15570e",
+      "data": [
+        {
+          "text": "open your name link",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "506a075e-773e-4af3-af59-30cd6c8cd5ad",
+      "data": [
+        {
+          "text": "open your website",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}
