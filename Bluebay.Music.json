@@ -1,0 +1,102 @@
+{
+  "id": "7f792ba1-628b-4ceb-9714-25977e06f701",
+  "name": "Bluebay.Music",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Little do you know",
+            "Senorita",
+            "So far away",
+            "Savvannah"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "ab450a55-ffb1-4d36-85c3-bd2974475e1a",
+      "data": [
+        {
+          "text": "tell me music name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fd6bad9b-805a-450c-ae3f-011975837acc",
+      "data": [
+        {
+          "text": "music name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2e75942d-9f19-4264-a4a2-0afc7bce9600",
+      "data": [
+        {
+          "text": "tell any music name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "21e28119-c04c-4898-a537-721ca5200b19",
+      "data": [
+        {
+          "text": "suggest any music",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b675bfca-7bc8-4c0d-b446-b81865e4a932",
+      "data": [
+        {
+          "text": "which is your favourite music",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}
