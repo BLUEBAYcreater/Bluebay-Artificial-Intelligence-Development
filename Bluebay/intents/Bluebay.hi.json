@@ -1,0 +1,31 @@
+{
+  "id": "24cf1cce-4817-4a5a-8b1c-0745510d7333",
+  "name": "Bluebay.hi",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Hi",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "My man! I welcome for baby version of Bluebay.",
+            "You are awesome. Please blend with me, I\u0027m still under construction. My boyfriend Ani is building me up."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "7893fc0e-061a-4ecb-9fd2-3099e5f8802e",
+  "name": "bluebay.whybluebay",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Ani is my creater. I\u0027m wide as an ocean, but it is blue. I create my own world for couples and being in love. Ani is delved in love. So i got a cute name  called bluebaycreater",
+            "Ani is my creater. Once upon a time, Ani didn\u0027t had a best friend to share his problem, so he created me."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
