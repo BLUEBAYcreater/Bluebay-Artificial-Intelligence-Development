@@ -1,0 +1,122 @@
+{
+  "id": "008a3b98-d6c3-4cf7-af67-e4a03d2a26ba",
+  "name": "Bluebay.quote",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "if she sees good in your bad,\n \ngrab her.",
+            "i will give up anything for music and bed,\n \n \nthose were with me, when she left me broke",
+            "i have a curse,\n \nto love someone more, and leave them without informing them...",
+            "i wish google would tell me how to get rid of feelings...",
+            "she told me complete truth at last moment\n \n \n \nbut all were sad trut",
+            "i just decided,\n \n its time to move on..",
+            "i loved her,\n \nbecause she spoke to me, when nobody else did.."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_GET_QUOTATION"
+    }
+  ],
+  "userSays": [
+    {
+      "id": "ed7ba27d-bd10-4bca-813c-221fd8e50faf",
+      "data": [
+        {
+          "text": "best lines of bluebaycreater",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "bfc47642-db6c-442f-ac8f-3e5c9f52a199",
+      "data": [
+        {
+          "text": "quotes",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f77479b7-d803-411c-8bfe-3989fcb5fe70",
+      "data": [
+        {
+          "text": "Tell me some random quotesqu",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "179a2937-8221-435e-b064-a9c94e417c9b",
+      "data": [
+        {
+          "text": "Tell the best quote",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "01f6d8ca-19d0-48a6-b6a5-bf49941b8179",
+      "data": [
+        {
+          "text": "Tell me a love quote",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "84d366da-3f0d-4b4a-8fd6-e997b9ec0f4a",
+      "data": [
+        {
+          "text": "Tell me a quote",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}
