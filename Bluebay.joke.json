@@ -1,0 +1,86 @@
+{
+  "id": "01fb622b-d3cb-4f24-8a1f-13a6c9bcb22a",
+  "name": "Bluebay.joke",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "What do you get when you cross-breed a shark and a cow? \n\nI have no idea but I wouldn’t try milking it.",
+            "\"I wasn't that drunk yesterday.\" \"Oh boy you took the shower head in your arms and told it to stop crying.\"",
+            "Women really know how to hold a grudge. My wife asked me to pass her a lip balm. And by mistake, I gave her a tube of Super Glue. It’s been a month now and she’s still not speaking to me!",
+            "Today, my son came to me and gave me a hug – out of the blue. I was very pleasantly surprised – that is, until I heard him tell his father, “You’re right. She did gain weight.”",
+            "Of course I should clean my windows. But privacy is important too.",
+            "I’ve always thought I will discover my inner self through some eastern philosophies, not because of a stupid single-ply toilet paper from Walmart!",
+            "I hate people who take drugs. DEA is the worst.",
+            "Sometimes it is very important if a sentence was said by a man or a woman. A good example: “I used a whole pack of tissues during that awesome movie yesterday!”",
+            "Two elephants meet a totally naked guy. After a while one elephant says to the other: “I really don’t get how he can feed himself with that thing!”",
+            "I just got a photo from a speeding camera through the mail. I sent it right back – way too expensive and really bad quality."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_GET_JOKE"
+    }
+  ],
+  "userSays": [
+    {
+      "id": "b7517913-e325-4ac9-864d-9a1496c1702d",
+      "data": [
+        {
+          "text": "Tell me joke bluebay",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "89b50c5f-4696-4135-bb45-e08821ff647f",
+      "data": [
+        {
+          "text": "Best joke",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "96d7ad48-8fbf-460f-b688-b98af98d5635",
+      "data": [
+        {
+          "text": "Tell me joke",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}
