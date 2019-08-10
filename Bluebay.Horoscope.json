@@ -1,0 +1,80 @@
+{
+  "id": "572d70f2-e42e-42de-b7c6-32c781d1d94b",
+  "name": "Bluebay.Horoscope",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Sorry, Aniketh doesn't believe in Horoscope. He believes in logics and little love in work along with music. Can make anything happen"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_GET_HOROSCOPE"
+    }
+  ],
+  "userSays": [
+    {
+      "id": "87ee423c-cba0-412f-8cad-36bcc073ad89",
+      "data": [
+        {
+          "text": "what is my horoscope",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2fa274a8-e2a4-4695-9261-1fb17ae63829",
+      "data": [
+        {
+          "text": "what god have plans on me ",
+          "userDefined": false
+        },
+        {
+          "text": "today",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9f202c32-27a0-4e0f-9e6d-6949e3b75c14",
+      "data": [
+        {
+          "text": "tell horoscope",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}
