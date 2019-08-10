@@ -1,0 +1,17 @@
+<speak><speak>
+  Hello
+  <audio src="https://actions.google.com/sounds/v1/cartoon/cartoon_boing.ogg"/>
+  With SSML,
+  <prosody rate="fast">you can make speech fast.</prosody>
+  <prosody rate="slow">Or, make it slow.</prosody>
+  <prosody pitch="high">You can make it high.</prosody>
+  <prosody pitch="low">Or, you can make it low.</prosody>
+  <prosody volume="loud">You can make it loud.</prosody>
+  <prosody volume="soft">Or, you can make it quiet.</prosody>
+  <prosody rate="fast" pitch="low" volume="x-loud">Or all three things at once!</prosody>
+  <break/>
+  But <say-as interpret-as="ordinal">1</say-as>,
+  You can make me spell colors like blue<break time="0.5s"/>
+  <say-as interpret-as="characters">blue</say-as>.
+  Edit this to try yourself!
+</speak></speak>
